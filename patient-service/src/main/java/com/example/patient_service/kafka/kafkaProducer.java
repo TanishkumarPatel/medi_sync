@@ -28,8 +28,8 @@ public class kafkaProducer {
             kafkaTemplate.send("patient",event.toByteArray());
             log.info("✅ Sent BYTES for patient: {}", patient.getName());
         }
-        catch (Exception ex){
-             log.error("error sending patient event: {}",event);
+        catch (Exception ex) {
+            log.error("error sending patient event: {}", event);
         }
     }
 }

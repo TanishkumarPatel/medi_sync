@@ -37,6 +37,13 @@ public class patientController {
         return ResponseEntity.ok().body(patients);
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<PatientResponseDTO> getPatientById(@PathVariable String id) {
+        // You need to ensure your PatientService has a 'getPatientById' method too
+        PatientResponseDTO patient = patient_service.getPatientById(id);
+        return ResponseEntity.ok(patient);
+    }
+
     @PostMapping
     @Operation(summary = "Create a new patient")
     public ResponseEntity<PatientResponseDTO> createpatient(@Validated({Default.class, CreatePatientValidationGroup.class}) @RequestBody PatientRequestDTO patientRequestDTO){
