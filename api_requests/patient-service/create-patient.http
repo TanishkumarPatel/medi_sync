@@ -3,8 +3,8 @@ POST http://localhost:4004/api/patients
 Content-Type: application/json
 
 {
-  "name": "Tanish Patel Kafka_test10",
-  "email": "kafka_test10@example.com",
+  "name": "Tanish Patel Kafka_test15",
+  "email": "kafka_test15@example.com",
   "address": "101 Shree rang township",
   "dateOfBirth": "2005-02-16",
   "registeredDate": "2025-01-01"

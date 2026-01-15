@@ -5,225 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca966e73-68ba-4651-985e-74822a59d1cc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/java/com/example/analyticsservice/AnalyticsServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/java/com/example/analyticsservice/kafka/KafkaConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/proto/patient_event.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/test/java/com/example/analyticsservice/AnalyticsServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/src/test/java/com/example/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/AppointmentServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/controller/appointmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/exception/Patientnotfoundexception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/exception/globalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/mapper/appointmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/model/appointment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/repository/appointmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/service/appointmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/proto/appointment_event.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/test/java/com/example/appointmentservice/AppointmentServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/java/com/example/configserver/ConfigServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/analytics-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/api-gateway.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/appointment-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/notification-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/patient-service.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/test/java/com/example/configserver/ConfigServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/src/main/java/com/example/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/src/test/java/com/example/discoveryserver/DiscoveryServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/java/com/example/notificationservice/NotificationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/java/com/example/notificationservice/email/email_sender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/java/com/example/notificationservice/kafka/notificationConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/proto/appointment_event.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/test/java/com/example/notificationservice/NotificationServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/PatientServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/controller/patientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/dto/PatientRequestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/dto/PatientResponseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/dto/validators/CreatePatientValidationGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/exception/EmailAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/exception/Patientnotfoundexception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/exception/globalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/kafka/kafkaProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/mapper/patientMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/model/patient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/repository/patient_repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/service/patient_service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/proto/patient_event.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/test/java/com/example/patient_service/PatientServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/example/analyticsservice/AnalyticsServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/example/analyticsservice/kafka/KafkaConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/proto/patient_event.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/analytics-service/src/test/java/com/example/analyticsservice/AnalyticsServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/example/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/AppointmentServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/controller/appointmentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/exception/Patientnotfoundexception.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/exception/globalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/mapper/appointmentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/model/appointment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/repository/appointmentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/service/appointmentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/proto/appointment_event.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appointment-service/src/test/java/com/example/appointmentservice/AppointmentServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/example/configserver/ConfigServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/analytics-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/api-gateway.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/appointment-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/notification-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/patient-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/example/configserver/ConfigServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/com/example/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-server/src/test/java/com/example/discoveryserver/DiscoveryServerApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/example/notificationservice/NotificationServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/example/notificationservice/email/email_sender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/example/notificationservice/kafka/notificationConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/proto/appointment_event.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/notification-service/src/test/java/com/example/notificationservice/NotificationServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/PatientServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/controller/patientController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/dto/PatientRequestDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/dto/PatientResponseDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/dto/validators/CreatePatientValidationGroup.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/exception/EmailAlreadyExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/exception/Patientnotfoundexception.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/exception/globalExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/kafka/kafkaProducer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/mapper/patientMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/model/patient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/repository/patient_repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/service/patient_service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/proto/patient_event.proto" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient-service/src/test/java/com/example/patient_service/PatientServiceApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/patient_managment_by_me.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_requests/patient-service/create-appointment.http" beforeDir="false" afterPath="$PROJECT_DIR$/api_requests/patient-service/create-appointment.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_requests/patient-service/create-patient.http" beforeDir="false" afterPath="$PROJECT_DIR$/api_requests/patient-service/create-patient.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/service/appointmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/service/appointmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/service/patient_service.java" beforeDir="false" afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/service/patient_service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -260,68 +47,68 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Docker.analytics-service.executor": "Run",
-    "Docker.api-gateway.executor": "Run",
-    "Docker.appointment-service.executor": "Run",
-    "Docker.config-server.executor": "Run",
-    "Docker.discovery-server.executor": "Run",
-    "Docker.kafka.executor": "Run",
-    "Docker.notificaiton-service.executor": "Run",
-    "Docker.patient-service-db.executor": "Run",
-    "Docker.patient-service.executor": "Run",
-    "Docker.patient_service.executor": "Run",
-    "Docker.patietnt-service-db.executor": "Run",
-    "Docker.services-db.executor": "Run",
-    "HTTP Request.create-appointment | #1.executor": "Run",
-    "HTTP Request.create-appointment | GET request to example server.executor": "Run",
-    "HTTP Request.create-patient | GET request to example server.executor": "Run",
-    "HTTP Request.create-patient | create a new patient.executor": "Run",
-    "HTTP Request.delete-patient | delete.executor": "Run",
-    "HTTP Request.get-patient | #1.executor": "Run",
-    "HTTP Request.update-patient | UPDATE.executor": "Run",
-    "Maven.analytics-service [clean].executor": "Run",
-    "Maven.analytics-service [compile].executor": "Run",
-    "Maven.appointment-service [clean].executor": "Run",
-    "Maven.appointment-service [compile].executor": "Run",
-    "Maven.notification-service [clean].executor": "Run",
-    "Maven.notification-service [compile].executor": "Run",
-    "Maven.patient_service [clean].executor": "Run",
-    "Maven.patient_service [compile].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.PatientServiceApplication.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/tanish/Myproject/medi_sync/medi_sync_microservices and gateway",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "bigdataide_conn_settings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Docker.analytics-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.api-gateway.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.appointment-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.config-server.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.discovery-server.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.kafka.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.notificaiton-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient-service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patient_service.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.patietnt-service-db.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.services-db.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-appointment | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-appointment | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-patient | GET request to example server.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.create-patient | create a new patient.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.delete-patient | delete.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.get-patient | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.update-patient | UPDATE.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.analytics-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.analytics-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.appointment-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.appointment-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.notification-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.notification-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient_service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.patient_service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.PatientServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tanish/Myproject/medi_sync/medi_sync_microservices and gateway&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;bigdataide_conn_settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/medi_sync_microservices and gateway" />
@@ -350,10 +137,7 @@
           <value>
             <map>
               <entry key="create-appointment | #1" value="STOPPED" />
-              <entry key="create-appointment | GET request to example server" value="STOPPED" />
               <entry key="create-patient | create a new patient" value="STOPPED" />
-              <entry key="delete-patient | delete" value="STOPPED" />
-              <entry key="get-patient | #1" value="STOPPED" />
             </map>
           </value>
         </entry>
@@ -692,10 +476,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.delete-patient | delete" />
         <item itemvalue="HTTP Request.create-appointment | #1" />
-        <item itemvalue="HTTP Request.get-patient | #1" />
         <item itemvalue="HTTP Request.create-patient | create a new patient" />
+        <item itemvalue="HTTP Request.get-patient | #1" />
+        <item itemvalue="HTTP Request.delete-patient | delete" />
         <item itemvalue="HTTP Request.create-appointment | GET request to example server" />
       </list>
     </recent_temporary>
@@ -759,7 +543,7 @@
       <workItem from="1768394840130" duration="8138000" />
       <workItem from="1768420439919" duration="2024000" />
       <workItem from="1768457644433" duration="441000" />
-      <workItem from="1768461615083" duration="5839000" />
+      <workItem from="1768461615083" duration="6899000" />
     </task>
     <servers />
   </component>

@@ -27,7 +27,7 @@ public class appointmentService {
         this.restTemplate = new RestTemplate();
     }
     public appointmentResponse bookAppointment(appointmentRequest request) {
-        String url = "http://api-gateway:4004/api/patients/" + request.getPatientId();
+        String url = "http://patient-service/api/patients/" + request.getPatientId();
         try {
             restTemplate.getForEntity(url, Object.class);
         } catch (Exception e) {
