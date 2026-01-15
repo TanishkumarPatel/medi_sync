@@ -1,0 +1,26 @@
+server:
+  port: 4001
+
+spring:
+  application:
+    name: appointment-service
+  datasource:
+    url: jdbc:postgresql://services-db:5432/db
+    username: admin_user
+    password: password
+    hikari:
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      validation-timeout: 5000
+      test-on-borrow: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+  sql:
+    init:
+      mode: always
+  kafka:
+    bootstrap-servers: kafka:9092
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.ByteArraySerializer
