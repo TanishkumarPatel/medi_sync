@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca966e73-68ba-4651-985e-74822a59d1cc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/java/com/example/analyticsservice/AnalyticsServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/java/com/example/analyticsservice/kafka/KafkaConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/proto/patient_event.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/analytics-service/src/test/java/com/example/analyticsservice/AnalyticsServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/api-gateway/src/test/java/com/example/apigateway/ApiGatewayApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/AppointmentServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/controller/appointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/exception/Patientnotfoundexception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/exception/globalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/mapper/appointmentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/model/appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/repository/appointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/java/com/example/appointmentservice/service/appointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/proto/appointment_event.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/appointment-service/src/test/java/com/example/appointmentservice/AppointmentServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/java/com/example/configserver/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/analytics-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/api-gateway.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/appointment-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/notification-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/main/resources/config/patient-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/config-server/src/test/java/com/example/configserver/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/src/main/java/com/example/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/discovery-server/src/test/java/com/example/discoveryserver/DiscoveryServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/java/com/example/notificationservice/NotificationServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/java/com/example/notificationservice/email/email_sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/java/com/example/notificationservice/kafka/notificationConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/proto/appointment_event.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/notification-service/src/test/java/com/example/notificationservice/NotificationServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/PatientServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/controller/patientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/dto/PatientRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/dto/PatientResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/dto/validators/CreatePatientValidationGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/exception/EmailAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/exception/Patientnotfoundexception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/exception/globalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/kafka/kafkaProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/mapper/patientMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/model/patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/repository/patient_repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/java/com/example/patient_service/service/patient_service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/proto/patient_event.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient-service/src/test/java/com/example/patient_service/PatientServiceApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/medi_sync_microservices and gateway/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/example/analyticsservice/AnalyticsServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/java/com/example/analyticsservice/kafka/KafkaConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/proto/patient_event.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/analytics-service/src/test/java/com/example/analyticsservice/AnalyticsServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/ApiGatewayApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/example/apigateway/ApiGatewayApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/AppointmentServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/controller/appointmentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/dto/appointmentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/exception/Patientnotfoundexception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/exception/globalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/mapper/appointmentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/model/appointment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/repository/appointmentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/service/appointmentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/proto/appointment_event.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appointment-service/src/test/java/com/example/appointmentservice/AppointmentServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/java/com/example/configserver/ConfigServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/analytics-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/api-gateway.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/appointment-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/notification-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/config/patient-service.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/src/test/java/com/example/configserver/ConfigServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/java/com/example/discoveryserver/DiscoveryServerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-server/src/test/java/com/example/discoveryserver/DiscoveryServerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/example/notificationservice/NotificationServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/example/notificationservice/email/email_sender.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/example/notificationservice/kafka/notificationConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/proto/appointment_event.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/test/java/com/example/notificationservice/NotificationServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/PatientServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/controller/patientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/dto/PatientRequestDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/dto/PatientResponseDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/dto/validators/CreatePatientValidationGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/exception/EmailAlreadyExistsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/exception/Patientnotfoundexception.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/exception/globalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/kafka/kafkaProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/mapper/patientMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/model/patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/repository/patient_repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/java/com/example/patient_service/service/patient_service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/proto/patient_event.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient-service/src/test/java/com/example/patient_service/PatientServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/patient_managment_by_me.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+        <option value="HTTP Request" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="31vc5ceROWdroERGI9P3XKJuspm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Docker.analytics-service.executor": "Run",
+    "Docker.api-gateway.executor": "Run",
+    "Docker.appointment-service.executor": "Run",
+    "Docker.config-server.executor": "Run",
+    "Docker.discovery-server.executor": "Run",
+    "Docker.kafka.executor": "Run",
+    "Docker.notificaiton-service.executor": "Run",
+    "Docker.patient-service-db.executor": "Run",
+    "Docker.patient-service.executor": "Run",
+    "Docker.patient_service.executor": "Run",
+    "Docker.patietnt-service-db.executor": "Run",
+    "Docker.services-db.executor": "Run",
+    "HTTP Request.create-appointment | #1.executor": "Run",
+    "HTTP Request.create-appointment | GET request to example server.executor": "Run",
+    "HTTP Request.create-patient | GET request to example server.executor": "Run",
+    "HTTP Request.create-patient | create a new patient.executor": "Run",
+    "HTTP Request.delete-patient | delete.executor": "Run",
+    "HTTP Request.get-patient | #1.executor": "Run",
+    "HTTP Request.update-patient | UPDATE.executor": "Run",
+    "Maven.analytics-service [clean].executor": "Run",
+    "Maven.analytics-service [compile].executor": "Run",
+    "Maven.appointment-service [clean].executor": "Run",
+    "Maven.appointment-service [compile].executor": "Run",
+    "Maven.notification-service [clean].executor": "Run",
+    "Maven.notification-service [compile].executor": "Run",
+    "Maven.patient_service [clean].executor": "Run",
+    "Maven.patient_service [compile].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.PatientServiceApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/tanish/Myproject/medi_sync/medi_sync_microservices and gateway",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "bigdataide_conn_settings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/medi_sync_microservices and gateway" />
+      <recent name="$PROJECT_DIR$/medi_sync_microservices" />
+      <recent name="$PROJECT_DIR$/config-server" />
+      <recent name="$PROJECT_DIR$/appointment-service/src/main/java/com/example/appointmentservice/exception" />
+      <recent name="$PROJECT_DIR$/notification-service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/medi_sync_microservices and gateway" />
+      <recent name="$PROJECT_DIR$/medi_sync_microservices" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="HttpClient.HttpRequestRunConfigurationType">
+          <value>
+            <map>
+              <entry key="create-appointment | #1" value="STOPPED" />
+              <entry key="create-appointment | GET request to example server" value="STOPPED" />
+              <entry key="create-patient | create a new patient" value="STOPPED" />
+              <entry key="delete-patient | delete" value="STOPPED" />
+              <entry key="get-patient | #1" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Docker.analytics-service">
+    <configuration name="create-appointment | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api_requests/patient-service/create-appointment.http" executionIdentifier="GET request to example server" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="create-appointment | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api_requests/patient-service/create-appointment.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="create-patient | create a new patient" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api_requests/patient-service/create-patient.http" executionIdentifier="create a new patient" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="delete-patient | delete" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api_requests/patient-service/delete-patient.http" executionIdentifier="delete" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="get-patient | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api_requests/patient-service/get-patient.http" executionIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AnalyticsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="analytics-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.analyticsservice.AnalyticsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.apigateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppointmentServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="appointment-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.appointmentservice.AppointmentServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.configserver.ConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiscoveryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="discovery-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.discoveryserver.DiscoveryServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.notificationservice.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PatientServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="patient_service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.patient_service.PatientServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="analytics-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="analytics-service:latest" />
+          <option name="containerName" value="analytics-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4003" />
+                <option name="hostPort" value="4003" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="analytics-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="api-gateway" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="api-gateway:latest" />
+          <option name="containerName" value="api-gateway" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4004" />
+                <option name="hostPort" value="4004" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="api-gateway/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="appointment-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="appointment-service:latest" />
+          <option name="containerName" value="appointment-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4001" />
+                <option name="hostPort" value="4001" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="appointment-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="config-server" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="config-server:latest" />
+          <option name="containerName" value="config-server" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8888" />
+                <option name="hostPort" value="8888" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="config-server/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="discovery-server" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="discovery-server:latest" />
+          <option name="containerName" value="discovery-server" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="8761" />
+                <option name="hostPort" value="8761" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="discovery-server/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="kafka" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="apache/kafka:3.7.0" />
+          <option name="containerName" value="kafka" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_ADVERTISED_LISTENERS" />
+                <option name="value" value="PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CONTROLLER_LISTENER_NAMES" />
+                <option name="value" value="CONTROLLER" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_CONTROLLER_QUORUM_VOTERS" />
+                <option name="value" value="0@kafka:9093" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_LISTENER_SECURITY_PROTOCOL_MAP" />
+                <option name="value" value="CONTROLLER:PLAINTEXT,EXTERNAL:PLAINTEXT,PLAINTEXT:PLAINTEXT" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_LISTENERS" />
+                <option name="value" value="PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:9094" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_NODE_ID" />
+                <option name="value" value="0" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR" />
+                <option name="value" value="1" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_PROCESS_ROLES" />
+                <option name="value" value="controller,broker" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_TRANSACTION_STATE_LOG_MIN_ISR" />
+                <option name="value" value="1" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR" />
+                <option name="value" value="1" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9092" />
+                <option name="hostPort" value="9092" />
+              </DockerPortBindingImpl>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="9094" />
+                <option name="hostPort" value="9094" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal " />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="notificaiton-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="notification-service:latest" />
+          <option name="containerName" value="notification-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4002" />
+                <option name="hostPort" value="4002" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="notification-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="patient-service" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="imageTag" value="patient-service:latest" />
+          <option name="containerName" value="patient-service" />
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="4000" />
+                <option name="hostPort" value="4000" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="sourceFilePath" value="patient-service/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="services-db" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="postgres:17" />
+          <option name="containerName" value="services-db" />
+          <option name="envVars">
+            <list>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_DB" />
+                <option name="value" value="db" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_PASSWORD" />
+                <option name="value" value="password" />
+              </DockerEnvVarImpl>
+              <DockerEnvVarImpl>
+                <option name="name" value="POSTGRES_USER" />
+                <option name="value" value="admin_user" />
+              </DockerEnvVarImpl>
+            </list>
+          </option>
+          <option name="portBindings">
+            <list>
+              <DockerPortBindingImpl>
+                <option name="containerPort" value="5432" />
+                <option name="hostPort" value="6000" />
+              </DockerPortBindingImpl>
+            </list>
+          </option>
+          <option name="commandLineOptions" value="--network internal" />
+          <option name="volumeBindings">
+            <list>
+              <DockerVolumeBindingImpl>
+                <option name="containerPath" value="/var/lib/postgresql/data" />
+                <option name="hostPath" value="$USER_HOME$/Documents/service database" />
+              </DockerVolumeBindingImpl>
+            </list>
+          </option>
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Docker.notificaiton-service" />
+      <item itemvalue="Docker.appointment-service" />
+      <item itemvalue="Docker.api-gateway" />
+      <item itemvalue="Docker.patient-service" />
+      <item itemvalue="Docker.analytics-service" />
+      <item itemvalue="Docker.config-server" />
+      <item itemvalue="Docker.discovery-server" />
+      <item itemvalue="Docker.kafka" />
+      <item itemvalue="Docker.services-db" />
+      <item itemvalue="HTTP Request.delete-patient | delete" />
+      <item itemvalue="HTTP Request.create-appointment | #1" />
+      <item itemvalue="HTTP Request.create-appointment | GET request to example server" />
+      <item itemvalue="HTTP Request.create-patient | create a new patient" />
+      <item itemvalue="HTTP Request.get-patient | #1" />
+      <item itemvalue="Spring Boot.DiscoveryServerApplication" />
+      <item itemvalue="Spring Boot.ConfigServerApplication" />
+      <item itemvalue="Spring Boot.NotificationServiceApplication" />
+      <item itemvalue="Spring Boot.AppointmentServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.AnalyticsServiceApplication" />
+      <item itemvalue="Spring Boot.PatientServiceApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.delete-patient | delete" />
+        <item itemvalue="HTTP Request.create-appointment | #1" />
+        <item itemvalue="HTTP Request.get-patient | #1" />
+        <item itemvalue="HTTP Request.create-patient | create a new patient" />
+        <item itemvalue="HTTP Request.create-appointment | GET request to example server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca966e73-68ba-4651-985e-74822a59d1cc" name="Changes" comment="" />
+      <created>1756407805062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1756407805062</updated>
+      <workItem from="1756407806531" duration="19605000" />
+      <workItem from="1756499407042" duration="1000" />
+      <workItem from="1756533462262" duration="1274000" />
+      <workItem from="1756577552441" duration="602000" />
+      <workItem from="1756725494976" duration="6297000" />
+      <workItem from="1756747904284" duration="1717000" />
+      <workItem from="1756796980911" duration="3171000" />
+      <workItem from="1756994358317" duration="44000" />
+      <workItem from="1757007697017" duration="7470000" />
+      <workItem from="1757058636807" duration="5305000" />
+      <workItem from="1757098287609" duration="3179000" />
+      <workItem from="1757143635260" duration="815000" />
+      <workItem from="1757172326588" duration="422000" />
+      <workItem from="1758049770075" duration="727000" />
+      <workItem from="1762941420554" duration="3000" />
+      <workItem from="1764152157801" duration="4000" />
+      <workItem from="1765973516591" duration="7280000" />
+      <workItem from="1766082567114" duration="2316000" />
+      <workItem from="1766171737513" duration="1686000" />
+      <workItem from="1766398416499" duration="12477000" />
+      <workItem from="1766509084012" duration="8646000" />
+      <workItem from="1766591486636" duration="9421000" />
+      <workItem from="1766668803792" duration="11057000" />
+      <workItem from="1766773567058" duration="6458000" />
+      <workItem from="1766865063920" duration="2868000" />
+      <workItem from="1767033400168" duration="721000" />
+      <workItem from="1767034144471" duration="1253000" />
+      <workItem from="1767035412898" duration="3488000" />
+      <workItem from="1767091428008" duration="1226000" />
+      <workItem from="1767092762089" duration="1948000" />
+      <workItem from="1767119687089" duration="5391000" />
+      <workItem from="1767157085956" duration="1903000" />
+      <workItem from="1767640972301" duration="2317000" />
+      <workItem from="1767722458855" duration="32000" />
+      <workItem from="1768157604629" duration="2704000" />
+      <workItem from="1768197326054" duration="13070000" />
+      <workItem from="1768246184029" duration="697000" />
+      <workItem from="1768246894406" duration="1386000" />
+      <workItem from="1768307748992" duration="4683000" />
+      <workItem from="1768312453503" duration="12821000" />
+      <workItem from="1768337258058" duration="12896000" />
+      <workItem from="1768394840130" duration="8138000" />
+      <workItem from="1768420439919" duration="2024000" />
+      <workItem from="1768457644433" duration="441000" />
+      <workItem from="1768461615083" duration="5839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

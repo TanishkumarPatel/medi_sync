@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/notification-service/notification-service.iml" filepath="$PROJECT_DIR$/notification-service/notification-service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/patient_managment_by_me.iml" filepath="$PROJECT_DIR$/patient_managment_by_me.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medi_sync_microservices and gateway/patient_managment_by_me.iml" filepath="$PROJECT_DIR$/medi_sync_microservices and gateway/patient_managment_by_me.iml" />
     </modules>
   </component>
 </project>
