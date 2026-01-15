@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="analytics-service" />
         <module name="api-gateway" />
+        <module name="config-server" />
+        <module name="discovery-server" />
         <module name="appointment-service" />
         <module name="notification-service" />
       </profile>
@@ -21,6 +23,8 @@
       <module name="analytics-service" options="-parameters" />
       <module name="api-gateway" options="-parameters" />
       <module name="appointment-service" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="discovery-server" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="patient_service" options="-parameters" />
     </option>

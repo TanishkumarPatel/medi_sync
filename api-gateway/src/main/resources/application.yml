@@ -1,19 +1,5 @@
-server:
-  port: 4004
-
 spring:
-  cloud:
-    gateway:
-      routes:
-        - id: patient-service-route
-          uri: http://patient-service:4000
-          predicates:
-            - Path=/api/patients/**
-          filters:
-            - StripPrefix=1
-        - id: appointment-service-route
-          uri: http://appointment-service:4001
-          predicates:
-            - Path=/api/appointments/**
-          filters:
-            - StripPrefix=1
+  application:
+    name: api-gateway
+  config:
+    import: optional:configserver:http://config-server:8888

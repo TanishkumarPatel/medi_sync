@@ -1,4 +1,4 @@
 ### delete
-DELETE http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174001
+DELETE http://localhost:4004/api/patients/56b32cda-863e-488b-890c-5deebbac1fe3
 
 ###

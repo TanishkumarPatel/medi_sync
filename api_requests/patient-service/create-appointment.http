@@ -2,7 +2,7 @@ POST http://localhost:4004/api/appointments
 Content-Type: application/json
 
 {
-  "patientId": "4887969c-f66c-41e5-9c48-5e090b71fe1",
+  "patientId": "7cd9a191-acb6-479d-9da6-c65880756847",
   "doctorName": "Dr. Strange",
   "appointmentTime": "2026-01-20T10:00:00"
 }
